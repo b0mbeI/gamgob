@@ -1,5 +1,5 @@
 # GAMGOB
-![version](https://img.shields.io/badge/Version-0.1-green)
+![version](https://img.shields.io/badge/Version-0.1-green) ![Licence](https://img.shields.io/badge/License-MIT-blue)
 ## Introduction
 
 > Lightweight web enumeration CLI tool written in Python
@@ -70,3 +70,4 @@ _____________________________________________
 | `-w`, `--wordlist` | Path to wordlist file |
 | `-d`, `--delay` | Delay between requests (seconds) |
 
+GAMGOB is licensed under the MIT License. See [License](https://github.com/b0mbeI/gamgob/blob/main/LICENSE)
