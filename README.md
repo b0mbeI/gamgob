@@ -70,4 +70,5 @@ _____________________________________________
 | `-w`, `--wordlist` | Path to wordlist file |
 | `-d`, `--delay` | Delay between requests (seconds) |
 
+## License
 GAMGOB is licensed under the MIT License. See [License](https://github.com/b0mbeI/gamgob/blob/main/LICENSE)
