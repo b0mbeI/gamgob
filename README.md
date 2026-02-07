@@ -4,12 +4,12 @@
 
 > Lightweight web enumeration CLI tool written in Python
 
-GAMGOB (a.k.a. Gamma Goblin) is a command-line web enumeration tool designed for low-impact HTTP content discovery.<br>
+GAMGOB (a.k.a. Gamma Goblin) is a command-line web enumeration tool designed for low-impact HTTP content discovery.
 It performs directory and endpoint enumeration using a wordlist and reports HTTP response
 status codes along with response size and request duration.
 
 This tool was created as a learning exercise and does not perform authentication attacks,
-password brute forcing, or vulnerability exploitation.  
+password brute forcing, or vulnerability exploitation.<br>
 _Use this tool only on systems you own or have explicit authorization to test._
 
 ## Installation
