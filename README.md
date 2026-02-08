@@ -55,8 +55,8 @@ _____________________________________________
 
 test                     [Status: 404, Size: 0 bytes, Duration: 201 ms]
 example                  [Status: 404, Size: 0 bytes, Duration: 196 ms]
-robots.txt               [Status: 200, Size: 6502 bytes, Duration: 226 ms]
-sitemap.xml              [Status: 200, Size: 1717 bytes, Duration: 221 ms]
+robots.txt               [Status: 404, Size: 0 bytes, Duration: 137 ms]
+sitemap.xml              [Status: 404, Size: 0 bytes, Duration: 142 ms] 
 ```
 
 ### Options
