@@ -37,7 +37,7 @@ python -m gamgob -u https://example.com -w /path/to/wordlist/wordlist.txt
 
 ### Example usage
 ``` 
-python -m gamgob -u example.com -w wordlist.txt
+python -m gamgob -w wordlist.txt -u google.com 
                                      
 
        |\    ______    /|
@@ -47,16 +47,17 @@ python -m gamgob -u example.com -w wordlist.txt
      _(___\___\__/___/___)______________
     │   __│  _  │     │   __│     │ __  │
     │  │  │     │ │ │ │  │  │  │  │ __ ─│
-    │_____│__│__│_│_│_│_____│_____│_____│                                 
+    │_____│__│__│_│_│_│_____│_____│_____│   
 
-
-URL:                     example.com
-Wordlist:                common.txt
+URL:                     google.com
+Wordlist:                wordlist.txt
 _____________________________________________
 
-.bash_history            [Status: 404, Size: 0 bytes, Duration: 151 ms]
-.bashrc                  [Status: 404, Size: 0 bytes, Duration: 148 ms]
-.cache                   [Status: 404, Size: 0 bytes, Duration: 142 ms]
+test                     [Status: 404, Size: 0 bytes, Duration: 201 ms]
+example                  [Status: 404, Size: 0 bytes, Duration: 196 ms]
+robots.txt               [Status: 200, Size: 6502 bytes, Duration: 226 ms]
+sitemap.xml              [Status: 200, Size: 1717 bytes, Duration: 221 ms]
+
 ```
 
 ### Options
