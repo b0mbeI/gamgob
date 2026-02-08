@@ -37,7 +37,7 @@ python -m gamgob -u https://example.com -w /path/to/wordlist/wordlist.txt
 
 ### Example usage
 ``` 
-python -m gamgob -w wordlist.txt -u google.com 
+python -m gamgob -w wordlist.txt -u example.com 
                                      
 
        |\    ______    /|
@@ -49,7 +49,7 @@ python -m gamgob -w wordlist.txt -u google.com
     │  │  │     │ │ │ │  │  │  │  │ __ ─│
     │_____│__│__│_│_│_│_____│_____│_____│   
 
-URL:                     google.com
+URL:                     example.com
 Wordlist:                wordlist.txt
 _____________________________________________
 
