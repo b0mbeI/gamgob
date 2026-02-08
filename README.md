@@ -37,7 +37,7 @@ python -m gamgob -u https://example.com -w /path/to/wordlist/wordlist.txt
 
 ### Example usage
 ``` 
-./gamgob.py -u example.com -w common.txt
+python -m gamgob -u example.com -w wordlist.txt
                                      
 
        |\    ______    /|
