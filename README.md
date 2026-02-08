@@ -33,7 +33,7 @@ To run GAMGOB, you must specify two required parameters:
   - `-u`, `--url`
 
 ```
-./gamgob.py -u https://example.com -w /path/to/wordlist/wordlist.txt
+python -m gamgob -u https://example.com -w /path/to/wordlist/wordlist.txt
 ```
 
 
