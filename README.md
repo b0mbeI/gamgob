@@ -17,9 +17,7 @@ _Use this tool only on systems you own or have explicit authorization to test._
 Clone the repository and run the script using Python 3:
 
 ```bash
-git clone https://github.com/yourusername/gamgob.git
-cd gamgob
-chmod +x gamgob.py
+git clone https://github.com/b0mbeI/gamgob.git
 ```
 
 ## Usage
