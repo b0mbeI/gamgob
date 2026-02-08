@@ -49,8 +49,6 @@ python -m gamgob -u https://example.com -w /path/to/wordlist/wordlist.txt
     │  │  │     │ │ │ │  │  │  │  │ __ ─│
     │_____│__│__│_│_│_│_____│_____│_____│                                 
 
-v0.1
-_____________________________________________
 
 URL:                     example.com
 Wordlist:                common.txt
