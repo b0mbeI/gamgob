@@ -1,5 +1,6 @@
 import argparse
 import time
+import sys
 from urllib.parse import urljoin
 from gamgob.config import logo
 from gamgob.input import load_wordlist
@@ -36,17 +37,28 @@ def run():
     print(f"_____________________________________________\n")
     
     time.sleep(1)
-    
     words = load_wordlist(args.wordlist)
-
+    total_words = len(words)
+    total_duration = 0
     base_url = args.url
+    
     if not base_url.startswith(("http://", "https://")):
         base_url = "https://" + base_url
     if not base_url.endswith("/"):
         base_url += "/"
-    for word in words:
+    
+    for i, word in enumerate(words, start=1):
         target = urljoin(base_url, word)
         status, size, duration = http_check(target)
+        total_duration += duration
+        sys.stdout.write("\r\033[2K")
+        
         print_results(word, status, size, duration)
+        
+        progress_line = f"Progress: [{i} of {total_words}]"
+        sys.stdout.write(progress_line)
+        sys.stdout.flush()
         if args.delay > 0:
             time.sleep(args.delay)
+
+    print(f"\nScan completed. Total duration time: {total_duration:.2f}s")
