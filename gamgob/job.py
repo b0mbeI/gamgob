@@ -70,6 +70,7 @@ def run():
     print(f"\n" + "-"*45)
     print()
     print(f"Scan completed.")
-    print(f"[+] HTTP 200 found : {http_sum}/{total_words}")
-    print(f"[+] Total duration : {total_duration:.2f}s")
+    print(f"[ ] HTTP 200 found : {http_sum}/{total_words}")
+    print(f"[ ] Total duration : {total_duration:.2f}s")
     print()
+
