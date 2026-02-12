@@ -51,14 +51,20 @@ python -m gamgob -w wordlist.txt -u example.com
 
 URL:                     example.com
 Wordlist:                wordlist.txt
-_____________________________________________
 
-test                     [Status: 404, Size: 0 bytes, Duration: 201 ms]
-example                  [Status: 404, Size: 0 bytes, Duration: 196 ms]
-robots.txt               [Status: 404, Size: 0 bytes, Duration: 137 ms]
-sitemap.xml              [Status: 404, Size: 0 bytes, Duration: 142 ms] 
+---------------------------------------------
+
+robots.txt               [Status: 200, Size: 0 bytes, Duration: 375 ms] [+]
+index.php                [Status: 404, Size: 0 bytes, Duration: 190 ms]
+sitemap.xml              [Status: 404, Size: 0 bytes, Duration: 184 ms]
+help                     [Status: 404, Size: 0 bytes, Duration: 189 ms]
+
+---------------------------------------------
+
+Scan completed.
+[ ] HTTP 200 found : 1/4
+[ ] Total duration : 0.94s
 ```
-
 ### Options
 | Option | Description |
 |------|------------|
