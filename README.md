@@ -66,12 +66,14 @@ Scan completed.
 [ ] Total duration : 0.94s
 ```
 ### Options
+```
   -u, --url <URL>           Target URL
   -w, --wordlist <FILE>     Path to wordlist file
   -d, --delay <SECONDS>     Delay between requests (in seconds)
   -sv, --save <FILE>        Save results to JSON file
   -fr, --filter <CODE>      Filter specific HTTP status code
   -h, --help                Show this help message and exit
+```
 
 ## License
 GAMGOB is licensed under the MIT License. See [License](https://github.com/b0mbeI/gamgob/blob/main/LICENSE)
