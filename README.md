@@ -71,6 +71,8 @@ Scan completed.
 | `-u`, `--url` | Target URL |
 | `-w`, `--wordlist` | Path to wordlist file |
 | `-d`, `--delay` | Delay between requests (seconds) |
+| `-sv`, `--save` | Save to JSON file |
+| `-fr`, `--filter` | Filter specific HTTP status code |
 
 ## License
 GAMGOB is licensed under the MIT License. See [License](https://github.com/b0mbeI/gamgob/blob/main/LICENSE)
